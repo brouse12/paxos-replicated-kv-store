@@ -1,0 +1,32 @@
+put key1 value1
+put key2 value2
+put key3 value3
+put key4 value4
+put key5 value5
+put key6 value6
+put key7 value7
+put someKey someVal
+put anotherKey anotherVal
+put oneMoreKey oneMoreVal
+get key1
+get key2
+get key3
+get nonexistentKey1
+get nonexistentKey2
+del key1
+get key1
+del key2
+del key3
+del nonexistentKey1
+del nonexistentKey1
+
+put
+get
+del
+put notEnoughArgs
+put too many args
+get too many args
+del too many args
+notACommand someArg
+put
+get thisArgumentHasTooManyCharactersAndShouldNotWork
